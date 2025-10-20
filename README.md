@@ -38,7 +38,6 @@ Each sample includes both **CC** and **MLO** images, offering complementary pers
   - *Lightweight design* suited for deployment on edge devices.  
 - **Contribution to Ensemble:** Extracts high-level features efficiently.  
 
-ShuffleNet_V2 architecture
 ![ShuffleNet_V2 architecture image here from](/images/shufflenet_v2.png)
 
 ---
@@ -49,7 +48,6 @@ ShuffleNet_V2 architecture
   - *Inverted Residuals* with linear bottlenecks for compact yet expressive modeling.  
 - **Contribution to Ensemble:** Balances efficiency and accuracy with mid-level feature extraction.  
 
-ShuffleNet_V2 architecture
 ![MobileNet_V2 architecture image here from](/images/mobilenet_v2.png)
 
 ---
