@@ -100,10 +100,13 @@ The project was implemented using **Python 3.12.8** and **PyTorch 2.6.0** on **P
    - Batch Size: 16  
    - Device: CUDA or CPU automatically detected  
 
+  ![Ensemble Accuracy per epoch image here from](/images/ensemble_acc.png)
+
 3. **Visualization:**  
    - Displays side-by-side CC and MLO images with predictions and ground truths.  
    - Generates a **confusion matrix** and **classification report** post-validation.
 
+  ![Prediction O/P image here from](/images/prediction_op.png)
 ---
 
 ##  6. Evaluation Metrics
@@ -114,6 +117,8 @@ The project was implemented using **Python 3.12.8** and **PyTorch 2.6.0** on **P
 |--------------------|---------|------------|
 | **Benign**         | 3       | 0          |
 | **Malignant**      | 2       | 5          |
+
+![Comfusion Matrix image here from](/images/confusion_matrix.png)
 
 ### 6.2 Classification Report
 
