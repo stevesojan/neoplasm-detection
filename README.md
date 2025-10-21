@@ -124,7 +124,7 @@ The project was implemented using **Python 3.12.8** and **PyTorch 2.6.0** on **P
 | Class      | Precision | Recall | F1-score | Support |
 |-------------|-----------|---------|-----------|----------|
 | Benign      | 0.75      | 0.75    | 0.75      | 20        |
-| Malignant   | 1.00      | 0.71    | 0.83      | 30        |
+| Malignant   | 0.83      | 0.83    | 0.83      | 30        |
 | **Accuracy**| **0.80**  |         |           | 50       |
 | Macro avg   | 0.79      | 0.79    | 0.79      | 50       |
 | Weighted avg| 0.80      | 0.80    | 0.80      | 50       |
