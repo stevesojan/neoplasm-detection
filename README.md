@@ -56,7 +56,8 @@ Each sample includes both **CC** and **MLO** images, offering complementary pers
 ### 3.3 ResNet18
 - **Key Features:**
   - *Skip Connections* to avoid vanishing gradients.  
-  - *18 Convolutional Layers* for deeper representation learning.  
+  - *17 Convolutional Layers + 1 FC layer* for deeper representation learning.
+  - *The 18 in ResNet-18 refers to the no. of layers that have learnable parameters i.e 17 conv layers and 1 FC layer*  
 - **Contribution to Ensemble:** Captures complex hierarchical features, complementing lighter models.  
 
 ![ResNet18 architecture image here from](/images/resnet18.png)
