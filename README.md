@@ -115,20 +115,19 @@ The project was implemented using **Python 3.12.8** and **PyTorch 2.6.0** on **P
 
 | Actual / Predicted | Benign | Malignant |
 |--------------------|---------|------------|
-| **Benign**         | 3       | 0          |
-| **Malignant**      | 2       | 5          |
+| **Benign**         | 15       | 5          |
+| **Malignant**      | 5       | 25          |
 
-![Comfusion Matrix image here from](/images/confusion_matrix.png)
 
 ### 6.2 Classification Report
 
 | Class      | Precision | Recall | F1-score | Support |
 |-------------|-----------|---------|-----------|----------|
-| Benign      | 0.60      | 1.00    | 0.75      | 3        |
-| Malignant   | 1.00      | 0.71    | 0.83      | 7        |
-| **Accuracy**| **0.80**  |         |           | 10       |
-| Macro avg   | 0.80      | 0.86    | 0.79      | 10       |
-| Weighted avg| 0.88      | 0.80    | 0.81      | 10       |
+| Benign      | 0.75      | 0.75    | 0.75      | 20        |
+| Malignant   | 1.00      | 0.71    | 0.83      | 30        |
+| **Accuracy**| **0.80**  |         |           | 50       |
+| Macro avg   | 0.79      | 0.79    | 0.79      | 50       |
+| Weighted avg| 0.80      | 0.80    | 0.80      | 50       |
 
 ### Metric Definitions
 
