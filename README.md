@@ -1,4 +1,4 @@
-# 🧠 Tumor Classification Using an Ensemble of ShuffleNet_V2, MobileNet_V2, and ResNet18
+# Tumor Classification Using an Ensemble of ShuffleNet_V2, MobileNet_V2, and ResNet18
 
 ---
 
@@ -58,7 +58,7 @@ Each sample includes both **CC** and **MLO** images, offering complementary pers
   - *18 Convolutional Layers* for deeper representation learning.  
 - **Contribution to Ensemble:** Captures complex hierarchical features, complementing lighter models.  
 
-<!-- 🔽 TODO: Add ResNet18 architecture image here from ./images/resnet18.png -->
+![ResNet18 architecture image here from](/images/resnet18.png)
 
 ---
 
